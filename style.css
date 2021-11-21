@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: limegreen;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.table {
+  height: 50%;
+  margin-top: 0 auto;
+}
+
+.player {
+  width: 800px;
+}
+
+.hand {
+  height: 200px;
+  background-color: greenyellow;
+  margin: 5px 0px;
+}
+
+.hand img {
+  margin: 15px 20px;
+  height: 80%;
+}
